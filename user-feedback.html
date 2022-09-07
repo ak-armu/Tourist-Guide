@@ -13,34 +13,42 @@
     <header class="mb-5">
         <nav class="navbar bg-dark navbar-expand-md navbar-light mb-3 fixed-top">
             <div class="container">
+            
               <a href="" class="navbar-brand text-light">Tourist-Guide</a>
               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sndp3"><span class="navbar-toggler-icon"></span></button>
             <div class="justify-content-end collapse navbar-collapse" id="sndp3">
                 <ul class="navbar-nav ml-auto p-2">
-                    <li class="nav-item active"><a class="nav-link text-white active" href="">Create Plan</a></li>
-                    <li class="nav-item ms-4"><a class="nav-link text-white" href="">Feedback</a></li>
+                    <li class="nav-item active"><a class="nav-link text-white active" href="user-dashboard.html">Create Plan</a></li>
+                    <li class="nav-item ms-4"><a class="nav-link text-white" href="user-feedback.html">Feedback</a></li>
                     <li class="nav-item ms-4"><a class="nav-link text-white" href="index.html">Logout</a></li>
+                  
                 </ul>
             </div>
-            </div>     
+            </div>
+            
         </nav>
-    </header><br><br>
-    
-    <main class="container mt-5">
-        <h1 class="text-danger text-center">
-            Select Places
-        </h1>
-        <hr>
-        <div class="text-center place-selection mt-5">
-            <label for="age"><b>Age</b></label>
-            <input type="text" placeholder="" name="age" size="4" required> <br><br>
-       
-            <label for="places"><b>Select your place</b></label>
 
-            <select id="places">
-                <option value="select">Select places</option>
-            </select>
-       </div>
+    </header><br><br>
+
+    <main class="container w-25 mt-5">
+        <h1 class="text-danger text-center">
+            Write Feedback
+        </h1>
+        <hr class="w-100">
+
+      <form action="">
+        <div class="form-group row">
+            <label class="col-3" for="userid"><b></b></label>
+        <input type="text" class="col-6" id="userid" name="userid" value=""><br>
+        </div><br>
+        <div class="form-group row">
+            <label class="col-3" for="feedback"><b>Feedback:</b></label>
+        <textarea id="feedback" class="col-6" rows="8" name="feedback" value=""></textarea><br><br>
+        </div>
+        <input class="btn btn-primary submit-btn w-25 mx-auto" type="submit" value="Submit">
+      </form>
     </main>
+   
+   
 </body>
 </html>

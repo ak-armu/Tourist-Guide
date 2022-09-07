@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tourist Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="admin-dashboard.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-dark navbar-expand-md navbar-light mb-3 fixed-top">
+            <div class="container">
+            
+              <a href="index.html" class="navbar-brand text-light">Tourist-Guide</a>
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sndp3"><span class="navbar-toggler-icon"></span></button>
+              <div class="justify-content-end collapse navbar-collapse" id="sndp3">
+                <ul class="navbar-nav ml-auto p-2">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                    <li class="nav-item ms-4"><a class="nav-link text-white" href="admin-login.html">Admin</a></li>
+                    <li class="nav-item ms-4"><a class="nav-link text-white" href="user-login.html">User</a></li>
+                    <li class="nav-item ms-4"><a class="nav-link text-white" href="#">Register</a></li>
+                </ul>
+             </div>
+            </div>
+        </nav>
+    </header><br><br>
+
+    <main class="container w-25 mt-5">
+        <h1 class="text-danger text-center">Register</h1>
+        <hr class="w-100">
+        <div class="form-box">
+                <form action="">
+                        <div class="form-group row">
+                            <label class="col-3" for="userid"><b>User ID</b></label>
+                            <input type="text" class="col-6" id="userid" name="userid" value="">
+                           </div><br>
+                        <div class="form-group row">
+                            <label class="col-3" for="password"><b>Password</b></label>
+                            <input type="password" class="col-6" id="password" name="password" value="">
+                           </div><br>
+                           <div class="form-group row">
+                            <label class="col-3" for="name"><b>Name</b></label>
+                            <input type="text" class="col-6" id="name" name="name" value="">
+                           </div><br>
+                           <div class="form-group row">
+                            <label class="col-3" for="email"><b>Email</b></label>
+                            <input type="email" class="col-6" id="email" name="email" value="">
+                           </div><br>
+                           <div class="form-group row">
+                            <label class="col-3" for="phone"><b>Contact No</b></label>
+                            <input type="text" class="col-6" id="phone" name="phone" value="">
+                           </div><br>
+                            <div class="form-group row">
+                                <label class="col-3" for="address"><b>Address</b></label>
+                                <input type="text" class="col-6" id="address" name="address" value="">
+                            </div><br>
+                            <div class="form-group row">
+                                <label class="col-3" for="area"><b>Area</b></label>
+                            <input type="text" class="col-6" id="area" name="area" value="">
+                            </div><br>
+                            <hr>
+    
+                     
+                     
+                        <h3 class="text-center text-danger">Answer the below</h3><br>
+                        <div class="text-center mt-5 d-flex justify-content-between"> 
+                           <label for="places"><b>Q1.</b>  What is your gender?</label>
+                
+                            <select id="gender">
+                                <option value="Male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                       </div>
+                        <div class="text-center mt-5 d-flex justify-content-between"> 
+                           <label for="age"><b>Q2.</b> How old are you?</label>
+                
+                            <select id="gender">
+                                <option value="18">18</option>
+                                <option value="18-25">18-25</option>
+                                <option value="25-35">25-35</option>
+                                <option value="35-50">35-50</option>
+                            </select>
+                       </div>
+                        <div class="text-center mt-5 d-flex justify-content-between"> 
+                           <label for="places"><b>Q3.</b>  Would you like to go to the beach?</label>
+                
+                            <select id="gender">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                       </div>
+                        <div class="text-center mt-5 d-flex justify-content-between"> 
+                           <label for="places"><b>Q4.</b>  Would you like to go to the hill station?</label>
+                
+                            <select id="gender">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                       </div>
+                        <div class="text-center mt-5 d-flex justify-content-between"> 
+                           <label for="places"><b>Q5.</b>  Would you like to go to forest?</label>
+                
+                            <select id="gender">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                       </div>
+                        <div class="text-center mt-5 d-flex justify-content-between"> 
+                           <label for="places"><b>Q6.</b>  Would you like to visit waterfalls?</label>
+                
+                            <select id="gender">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                       </div>
+                        <div class="text-center mt-5 d-flex justify-content-between"> 
+                           <label for="places"><b>Q7.</b>  Would you like to visit Landscape view?</label>
+                
+                            <select id="gender">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                       </div>
+                        <div class="text-center d-flex justify-content-between mt-5"> 
+                           <label for="places"><b>Q8.</b>  Would you like to visit temple?</label>
+                
+                            <select id="gender">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                       </div>
+                     <input class="btn btn-primary submit-btn w-25 mx-auto" type="submit" value="Register">
+            </form>
+        </div>
+    </main>
+    
+   
+</body>
+</html>
